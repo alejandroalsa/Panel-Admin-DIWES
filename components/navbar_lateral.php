@@ -9,7 +9,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="assets/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="assets/img/img-profiles/user-dafault.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Desarrollo DIWES</a>
@@ -19,7 +19,7 @@
       <!-- SidebarSearch Form -->
       <div class="form-inline">
         <div class="input-group" data-widget="sidebar-search">
-          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Buscar" aria-label="Search">
           <div class="input-group-append">
             <button class="btn btn-sidebar">
               <i class="fas fa-search fa-fw"></i>
@@ -83,13 +83,13 @@
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Navegación superior</p>
+                  <p>Nav. superior</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Navegación superior + barra lateral</p>
+                  <p>Nav. superior + lateral</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -107,7 +107,7 @@
               <li class="nav-item">
                 <a href="pages/layout/fixed-sidebar-custom.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Barra lateral fija  <small>+ Área personalizada</small></p>
+                  <p>Barra lateral fija custom</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -207,7 +207,7 @@
               <li class="nav-item">
                 <a href="pages/UI/navbar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Barra de navegación y Pestañas</p>
+                  <p>Barra de nav. y Pestañas</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -271,7 +271,7 @@
               <li class="nav-item">
                 <a href="pages/tables/simple.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Tablas Basicas</p>
+                  <p>Tablas Básicas</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -318,7 +318,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-envelope"></i>
               <p>
-                Correo Electrónico Web
+                Correo Electrónico
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -427,7 +427,7 @@
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
-                    Iniciar Sesión & Registro v1
+                    Inicio Sesión & Registro v1
                     <i class="fas fa-angle-left right"></i>
                   </p>
                 </a>
@@ -447,13 +447,13 @@
                   <li class="nav-item">
                     <a href="pages/examples/forgot-password.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v1</p>
+                      <p>Contraseña Olvidada v1</p>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a href="pages/examples/recover-password.html" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v1</p>
+                      <p>Recuperar contraseña v1</p>
                     </a>
                   </li>
                 </ul>
@@ -502,7 +502,7 @@
               <li class="nav-item">
                 <a href="pages/examples/legacy-user-menu.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Menú de usuario heredado</p>
+                  <p>Menú de usuario</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -532,13 +532,13 @@
               <li class="nav-item">
                 <a href="pages/examples/blank.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Blank Page</p>
+                  <p>Pagina en Blanco</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="starter.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Starter Page</p>
+                  <p>Pagina Inicio</p>
                 </a>
               </li>
             </ul>
@@ -547,7 +547,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-search"></i>
               <p>
-                Search
+                Buscar
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -555,13 +555,13 @@
               <li class="nav-item">
                 <a href="pages/search/simple.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Simple Search</p>
+                  <p>Busqueda Simple</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/search/enhanced.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Enhanced</p>
+                  <p>Busqueda Avanzada</p>
                 </a>
               </li>
             </ul>
@@ -570,13 +570,7 @@
           <li class="nav-item">
             <a href="iframe.html" class="nav-link">
               <i class="nav-icon fas fa-ellipsis-h"></i>
-              <p>Tabbed IFrame Plugin</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://adminlte.io/docs/3.1/" class="nav-link">
-              <i class="nav-icon fas fa-file"></i>
-              <p>Documentacióm</p>
+              <p>Navegación con pestañas</p>
             </a>
           </li>
           <li class="nav-header">Multinivel Ejemplo</li>
